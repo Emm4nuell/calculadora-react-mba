@@ -1,0 +1,26 @@
+button{
+    width: 20vw;
+    height: 10vh;
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[class="red"]:active{
+    background-color: rgb(191, 0, 0);
+}
+
+button[class="green"]:active{
+    background-color: rgb(26, 204, 26);
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
